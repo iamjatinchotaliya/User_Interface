@@ -1,0 +1,39 @@
+<?php 
+	include('connect.php');
+	$eid = 0;
+?>
+<html>
+    <head>
+        <style>
+            .button {
+              border: none;
+              color: white;
+              padding: 16px 32px;
+              text-align: center;
+              text-decoration: none;
+              display: inline-block;
+              font-size: 16px;
+              transition-duration: 0.4s;
+              cursor: pointer;
+            }
+            
+            .button1 {
+              background-color: white; 
+              color: black; 
+              border: 2px solid #4CAF50;
+            }
+            
+            .button1:hover {
+              background-color: #4CAF50;
+              color: white;
+            }
+            
+            </style>
+        <body>
+            <center>
+            <p style="font-size: 40px; color: rgb(119, 0, 255);">Your record inserted successfully...</p>
+            <button class="button button1">Show Records</button>
+        </center>
+        </body>
+    </head>
+</html>
